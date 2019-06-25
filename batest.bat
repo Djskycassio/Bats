@@ -1,6 +1,7 @@
 @echo off
+title Ti neobpo
 :inicio
-mode 74,25
+mode 75,26
 cls
 color f0
 echo ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
@@ -22,8 +23,9 @@ echo บ[4] Propriedades de Internet       บ   [9]     Abrir Regedit           บ
 echo ฬอออออออออออออออออออออออออออออออออออฮอออออออออออออออออออออออออออออออออออน
 echo บ[5]      Abrir Servicos            บ   [10]      Fix Proxy             บ
 echo ฬอออออออออออออออออออออออออออออออออออสอออออออออออออออออออออออออออออออออออน
-echo บ[x]                             Sair                                   บ
-echo ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+echo บ[x]                             Sair                      ษออออออออออออออป
+echo ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออบ By Matheus   บ
+echo                                                            ศออออออออออออออผ               
 echo.
 echo.
 set /p opcao= Selecione a opcao dejesada:
@@ -38,8 +40,9 @@ if %opcao% ==7 goto op7
 if %opcao% ==8 goto op8
 if %opcao% ==9 goto op9
 if %opcao% ==10 goto op10
-if %opcao% GEQ 11 goto erro 
 if %opcao% ==x goto opx
+if %opcao% GEQ 11 goto erro 
+
 
 
 :op1
