@@ -13,6 +13,6 @@ echo de %nome%\ para %destino% %nome%\
 pause
 echo.
 
-robocopy "\\localhost\c$\Users\%nome%"  "\%destino%\\c$\Users\%nome%" /mir
+robocopy "\\localhost\c$\Users\%nome%"  "\%destino%\\c$\Users\%nome%" /f /mir
 
 pause
